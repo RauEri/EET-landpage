@@ -1,0 +1,84 @@
+/* Fondo del banner */
+.banner-conteiner {
+  cursor: default;
+  position: relative;
+  width: 100%;
+  height: 650px;
+  background-image: url(./assets/img/banner2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  mask-image: linear-gradient(#000 90%, transparent);
+  z-index: 1;
+  filter: saturate(1.5);
+}
+
+.banner-conteiner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 52, 77, 0.5);
+  z-index: 1;
+  transition: all 1s;
+}
+
+.banner-conteiner.scroll-banner::after {
+  background-color: rgba(0, 52, 77, 0.7);
+}
+/* Fin del fondo del banner */
+
+/* Contenido dentro del banner */
+.principal-info {
+  text-shadow: -1px -1px 0 #303030, 1px -1px 0 #303030, -1px 1px 0 #303030, 1px 1px #303030;
+  position: absolute;
+  color: white;
+  z-index: 2;
+  margin: 0;
+  width: 100%;
+  top: 35%;
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+  transition: all .3s;
+}
+
+.principal.info h4 {
+  margin: 20px 15px 15px 15px;
+}
+
+.buttom {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.boton-scroll {
+  margin-top: 100px;
+  transition: all .3s;
+  z-index: 3;
+  width: auto;
+}
+
+.boton-scroll:hover {
+  transform: scale(1.2);
+}
+
+.boton-scroll span {
+  color: white;
+  font-size: 1.2rem;
+  padding: 5px;
+  border: 2px solid #ffff;
+  border-radius: 10px;
+  transition: all .3s;
+}
+
+.boton-scroll span:hover {
+  background-color: #006fa4;
+  border-color: #006fa4;
+}
+/* Fin del contenido dentro del banner */
