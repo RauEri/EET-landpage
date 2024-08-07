@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.site-logo h3 {
+    color: white;
+}
+
 .main-menu {
     margin: auto;
     display: flex;
@@ -41,7 +45,7 @@ li a:hover {
 }
 
 .logo {
-    width: 5rem;
+    width: 4rem;
 }
 
 header {
