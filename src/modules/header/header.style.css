@@ -43,3 +43,18 @@ li a:hover {
 .logo {
     width: 5rem;
 }
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 10px 15px 10px 20px;
+    background-color: rgba(41, 41, 41, 0);
+    border-radius: 0 0 10px 10px;
+    font-size: 1.3rem;
+    transition: all 1s ease;
+    z-index: 2;
+}
+
+header.scrolled {
+    background-color: rgba(26, 26, 26, 0.9);
+}
