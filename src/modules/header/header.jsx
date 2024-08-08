@@ -3,7 +3,7 @@ import logo from '../../assets/img/logo_normal.png'
 
 export default function Header() {
     return (
-        <header>
+        <header id='header'>
             <nav className="main-navigation">
                 <a href='#'>
                     <div className='site-logo'>
