@@ -27,7 +27,7 @@ function App() {
             <span>Nosotros</span>
           </div>
         </div>
-
+    
         <Nosotros />
 
       </div>
