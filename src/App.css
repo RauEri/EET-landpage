@@ -126,6 +126,17 @@
 }
 /* Fin del divisor */
 
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Espacio extra para probar */
 .test {
   height: 200vh;
 }
+/* Fin del espacio, luego borrar */

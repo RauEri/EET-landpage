@@ -1,0 +1,16 @@
+{
+    "target-1": {
+        "title": "¿Quienes somós?",
+        "body": "Somos una escuela con 70 años de existencia con la orientación en Electromecánica, y nos encargamos de formar a los tecnicos del futuro en Rosario de la Frontera"
+    },
+
+    "target-2": {
+        "title": "¿Como trabajamos?",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam rem repudiandae soluta. Corporis ea sequi laboriosam magnam repellat, atque, asperiores officiis obcaecati mollitia et architecto aut distinctio earum, quasi eius!"
+    },
+
+    "target-3": {
+        "title": "¿Que ofrecemos?",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam rem repudiandae soluta. Corporis ea sequi laboriosam magnam repellat, atque, asperiores officiis obcaecati mollitia et architecto aut distinctio earum, quasi eius!"
+    }
+}
