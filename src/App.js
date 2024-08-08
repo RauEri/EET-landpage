@@ -1,11 +1,12 @@
 import './App.css';
-import Header  from './modules/header/header';
+import Header from './modules/header/index.header';
+import Nosotros from './modules/nosotrosTarget/index.nosotros';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      
+
       {/* Banner inicial */}
       <div id='banner-conteiner' className='banner-conteiner'>
         <div className='principal-info'>
@@ -20,10 +21,25 @@ function App() {
       </div>
       {/* Fin del banner inicial */}
 
+      <div className='nosotros' id='Nosotros'>
+        <div className='divisor'>
+          <div className='top-info'>
+            <span>Nosotros</span>
+          </div>
+        </div>
+
+        <Nosotros />
+
+      </div>
+
+      <div className='test'></div>
+
     </div>
   );
 }
 
+
+{/* Animacion al scrollear */}
 window.addEventListener('scroll', function () {
   const header = this.document.getElementById('header');
   if (window.scrollY > 50) {
@@ -40,5 +56,6 @@ window.addEventListener('scroll', function () {
   }
 
 });
+{/* Fin de animacion al scrollear */}
 
 export default App;

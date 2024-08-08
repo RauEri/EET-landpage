@@ -82,3 +82,50 @@
   border-color: #006fa4;
 }
 /* Fin del contenido dentro del banner */
+
+/* Divisor */
+.divisor {
+  cursor: default;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.top-info {
+  font-weight: bold;
+  margin-top: 0px;
+  padding-top: 80px;
+  font-size: 1.8rem;
+  justify-content: center;
+  width: 70%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  color: #0f3c77;
+  transition: all .8s;
+}
+
+.top-info::before,
+.top-info::after {
+  content: '';
+  flex: 1;
+  border-bottom: #0f3c77 3px solid;
+}
+
+.top-info:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.top-info:not(:empty)::after {
+  margin-left: .25em;
+}
+
+.top-info:hover {
+  width: 50%;
+}
+/* Fin del divisor */
+
+.test {
+  height: 200vh;
+}
