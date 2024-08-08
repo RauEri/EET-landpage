@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Sitio Web para la Escuela de Educación Técnica N° 3132
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fue desarrollado por los alumnos de la materia de Prácticas Profesionalizantes en la Escuela de Educación Técnica N° 3132. Dado que la escuela no contaba con un sitio web oficial, decidimos crear uno para mejorar la visibilidad y facilitar el acceso a la información para estudiantes, padres y docentes.
 
-## Available Scripts
+## Descripción del Proyecto
 
-In the project directory, you can run:
+El objetivo de este proyecto es diseñar y desarrollar un sitio web que represente a la Escuela de Educación Técnica N° 3132, ofreciendo información relevante como noticias, eventos, ofertas educativas y recursos para la comunidad educativa.
 
-### `npm start`
+## Tecnologías Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+El sitio web está desarrollado utilizando **React**, una biblioteca de JavaScript para construir interfaces de usuario.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ¿Por qué React?
 
-### `npm test`
+Elegimos React para este proyecto por varias razones:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Componentización**: React permite dividir la interfaz en componentes reutilizables, lo que facilita la organización y el mantenimiento del código.
+- **Rendimiento**: React utiliza un DOM virtual, lo que mejora significativamente el rendimiento al actualizar la interfaz de usuario.
+- **Comunidad y Ecosistema**: React cuenta con una gran comunidad y una amplia variedad de herramientas y bibliotecas que complementan su funcionalidad, facilitando la implementación de características avanzadas.
+- **Flexibilidad**: React se puede integrar fácilmente con otras bibliotecas o marcos, lo que nos da la libertad de expandir el sitio web con nuevas funcionalidades en el futuro.
 
-### `npm run build`
+## Funcionalidades del Sitio
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Página de Inicio**: Una visión general de la escuela, incluyendo noticias recientes y anuncios importantes.
+- **Ofertas Educativas**: Información sobre las carreras y cursos ofrecidos.
+- **Noticias y Eventos**: Sección dedicada a mantener a la comunidad informada sobre los eventos próximos y las noticias de la escuela.
+- **Contacto**: Un formulario para que los visitantes puedan ponerse en contacto con la administración de la escuela.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalación y Ejecución
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para ejecutar este proyecto localmente, sigue estos pasos:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/escuela-3132-web.git
